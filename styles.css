@@ -28,7 +28,7 @@ body{
 .pictorial-news-section{
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
+	text-align:center;
 	align-items:center;
 	background-color:white;
 	border-radius:20px;
@@ -37,17 +37,15 @@ body{
 }
 .pictorial-news-section img{
 	width:100px;
-	margin:10px
+	margin:10px;
 	
 }
 
 
-nav{
-	display:flex;
-	justify-content:center;
-	align-items:center;
+header{
 	height:50px;
 	color:white;
+	text-align:center;
 	font-weight:800;
 	font-size:40px;
 	background-color:#011e29;
